@@ -1,0 +1,175 @@
+body{
+    background-image: url('./akewebbackearth2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.item{
+    margin-left: 7rem;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+
+}
+.item a{
+    text-decoration: none;
+    color: rgb(59, 120, 226);
+}
+h1{
+    color:rgb(59, 120, 226) ;
+    margin-top: 8rem;
+    margin-left: 9rem;
+font-size: 50px;
+
+}
+.section{
+    position: relative;
+}
+.searchbox{
+position: absolute;
+margin-top: -5rem;
+margin-left: 70rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+}
+h2{
+
+    font-size: 5rem;
+}
+#name{
+    margin-top:-10px ;
+    width: 20rem;
+    height: 3rem;
+    border: 3px solid rgb(37, 167, 231);
+    border-radius: 30px;
+    background-color: rgb(139, 216, 244);
+
+}
+.button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 50px;
+
+    background-color: rgb(88, 199, 247);
+    border: 1px solid rgb(88, 199, 247);
+
+}
+
+footer p{
+    color: gold;
+    margin-top: 50rem;
+    margin-left: 5rem;
+}
+.info{
+    padding: 60px;
+    font-size: 3rem;
+    color: rgb(24, 12, 12);
+}
+.weather{
+    width: 50rem;
+    height: 50rem;
+margin-left:5rem;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    display: none;
+    background-color: rgb(64, 147, 219);
+    border-radius: 70px;
+}
+
+
+@media (max-width:1455px) {
+ 
+    
+    .searchbox{
+        
+        margin-left: 40rem;
+        
+        }
+         
+
+        h1{
+            color:goldenrod;
+            margin-top: 6rem;
+            margin-left: 6rem;
+        }
+    
+        
+        .weather{
+            width: 20rem;
+            height: 20rem;
+            margin-top: 25rem;
+        }
+    
+}
+@media (max-width:1240px) {
+ 
+    #name{
+       margin-left: -10rem;
+    
+    }
+    button{
+        margin-left: -10rem;
+    }
+
+    .weather{
+        /* width: 10rem;
+        height: 10rem; */
+        padding: 30px;
+        margin-top: 25rem;
+    }
+    .info{
+        
+        font-size: 2rem;
+        
+    }
+    
+}
+@media (max-width:1038px) {
+    .searchbox{
+        
+        margin-top: -2rem;
+    margin-left: 4rem;
+        
+        }
+    h2{
+        font-size: 4rem;
+    }
+}
+@media (max-width:960px) {
+    .weather{
+        width: 30rem;
+        height: 50rem;
+        padding: 5px;
+        margin-top: 25rem;
+    }
+    .info{
+        
+        font-size: 2rem;
+        
+    }
+    
+}
+@media (max-width:610px) {
+    .item{
+        margin-left: 2rem;
+       
+    
+    }
+    h2{
+        color: goldenrod;
+    }
+    .weather{
+        margin-left: 20px;
+    }
+}
+
+

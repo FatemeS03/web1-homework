@@ -1,0 +1,89 @@
+body{
+    background-image: url('./_\ تصویر\ آسمان.jpg'); 
+    background-size: contain; 
+    background-position: center; 
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.item{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    gap: 10rem;
+    
+}
+.item a{
+    
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(6, 26, 60);
+}
+footer p{
+    color: gold;
+    margin-top: 50rem;
+    margin-left: 5rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+p{
+    font-size: 3rem;
+    background-color:rgb(164, 207, 243);
+    padding: 5px;
+    border-radius: 10px;
+}
+@media (max-width:1345px) {
+    article{
+        padding: 100px;
+    }
+    p{
+        padding: 30px;
+    }
+    .item{
+        margin-left: 2rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        gap: 10rem;
+        
+    }
+    
+}
+@media (max-width:987px) {
+    .item{
+        margin-left: 2rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        gap: 5rem;
+        
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+@media (max-width:745px) {
+    .item{
+        margin-left: 2rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        gap: 2rem;
+        
+    }
+    p{
+        font-size: 2rem;
+    }
+}

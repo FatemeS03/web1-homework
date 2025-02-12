@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(108, 201, 201); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    
+    border: 3px solid;
+    margin: 50px;
+}
+.item{
+   
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 10rem;
+    
+}
+.item a{
+    
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(6, 26, 60);
+    border-bottom: 3px solid;
+    padding: 30px;
+}
+footer p{
+    color: gold;
+    margin-top: 50rem;
+    margin-left: 5rem;
+}
+img{
+    background-color: black;
+    border: 3px solid;
+    padding: 20px;
+    width: 450px;
+    height: 350px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 50px;
+    justify-content: center;
+}
+.gallery div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.album{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+figcaption{
+    margin-top: 10px;
+    margin-left: px;
+    border-bottom: 2px solid;
+}
+/* @media (max-width:1255) {
+    .gallery{
+align-items: center;
+justify-content: center;
+    }
+    .gallery div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+} */
+
+ @media (max-width:1241px) {
+    
+    
+ }
+ @media (max-width:927px) {
+    .item{
+        gap: 3rem;
+    
+    
+    }
+    .item a{
+    
+        font-size: 1.5rem;
+    }
+ }
+ @media (max-width:667px) {
+    .item{
+        gap: 2rem;
+    
+    
+    }
+    .item a{
+    
+        font-size: 1rem;
+    }
+    img{
+        width: 420px;
+    }
+ }
+

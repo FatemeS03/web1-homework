@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="item">
+          <a href="#">Home</a>
+          <a href="./page2.html">About</a>
+          <a href="./page3.html">Contact</a>
+          <a href="./page4.html">Album</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section">
+        <div class="title">
+          <h1 class="h1">Global Weather</h1>
+        </div>
+        <div class="searchbox">
+          <h2>Choose a city name</h2>
+          <label for="cities"></label>
+          <select id="name" name="cities">
+            <option value="Tehran">Tehran</option>
+            <option value="nothing">choose a city</option>
+            <option value="London,UK">London</option>
+            <option value="Paris,France">Paris</option>
+            <option value="New York">New York</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value=" Ankara,Turkey"> Ankara</option>
+            <option value="Madrid,Spain">Madrid</option>
+            <option value="Canberra,Australia">Canberra</option>
+            <option value="Bern,Switzerland">Bern</option>
+            <option value="Lima,Peru">Lima</option>
+            <option value="Lao People's Democratic Republic">Vientiane</option>
+            <option value="Warsaw,Poland">Warsaw</option>
+           
+          </select>
+          <button class="button" >Search</button>
+        </div>
+        <div class="weather"></div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 All rights reserved</p>
+    </footer>
+
+    <script src="./js.js"></script>
+  </body>
+</html>
