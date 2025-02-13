@@ -31,11 +31,17 @@ fetch(`http://api.weatherapi.com/v1/search.json?key=4cedebbc5aee4d25be1161758251
         curentweth.textContent=`Weather: ${data[0].lon}`
         ptemp.textContent=`Geographical Location: ${data[0].lat} `
         
-        
+        h4.style.color="goldenrod"
+        h4.style.backgroundColor="rgb(3, 35, 63)"
+        ptemp.style.color="goldenrod"
+         ptemp.style.backgroundColor="rgb(3, 35, 63)"
+        curentweth.style.color="goldenrod"
+         curentweth.style.backgroundColor="rgb(3, 35, 63)"
+
         div.style.display= "block"
         
 
-        div.style.border= "5px solid blue"
+        // div.style.border= "5px solid blue"
 
 
         div.append(h4, curentweth, ptemp)

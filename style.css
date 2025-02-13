@@ -74,14 +74,15 @@ footer p{
     color: rgb(24, 12, 12);
 }
 .weather{
-    width: 50rem;
-    height: 50rem;
+    width: 30rem;
+    height: 30rem;
 margin-left:5rem;
+
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap; */
     display: none;
-    background-color: rgb(64, 147, 219);
+    /* background-color: rgb(3, 35, 63); */
     border-radius: 70px;
 }
 
